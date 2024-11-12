@@ -1,0 +1,116 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+   background: rgb(165, 165, 165);
+
+}
+
+body{
+   margin: 0;
+}
+
+nav {
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 50px;
+   padding-right: 50px;
+   background: white;
+
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   gap: 20px;
+   padding: 0;
+   
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+
+#avatar{
+   width: 40px;
+   height: 40px;
+   border-radius: 360px;
+   border: 2px solid black;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.button{
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 8px 16px;
+   border-radius: 8px;
+   border: solid 2.5px #8005F2;
+   text-decoration: none;
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+}
+
+.primary{
+   background: #8005f2;
+   color: white;
+}
+
+main h1{
+   text-align: center;
+}
+
+.card{
+      width: 20%;
+      max-width: 220px;
+      background: white;
+      border-radius: 10px;
+      margin: auto;
+      overflow: hidden;
+
+}
+
+.card img {
+   width: 100%;
+ 
+
+
+ }
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description{
+   padding: 10px;
+}
+
+.description p {
+   margin: 2px 0;
+   font-size: 0.7em; 
+}
+
+.description h2, h3 {
+   margin: 0;
+}
+
+.description h3 {
+   color: #8005f2;
+}
+
+.description a {
+   padding: 6px 28px;
+}
